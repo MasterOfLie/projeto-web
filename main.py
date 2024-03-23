@@ -1,5 +1,6 @@
 from flask import Flask, Blueprint
 from essentils.pages import *
+from flask_login import LoginManager
 app = Flask(__name__)
 
 
