@@ -1,4 +1,4 @@
-from peewee import *
-conexao = "mysql://dev:dev@localhost:3306/my_db"
+import peewee as pw
+db = pw.MySQLDatabase('dev', user='dev', password='dev', host='localhost', port=3306)
 
 
